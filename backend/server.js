@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5000;
 
 const isProd = process.env.IS_PRODUCTION === "true";
 const AI_SERVICE_URL = isProd 
-  ? (process.env.PROD_AI_SERVICE_URL || "https://ghostnet-ai-agent.onrender.com")
+  ? (process.env.PROD_AI_SERVICE_URL || "https://ghost-net-ai-py.onrender.com")
   : (process.env.LOCAL_AI_SERVICE_URL || "http://127.0.0.1:8000");
 
 
