@@ -55,6 +55,254 @@
       "category": "MEDICAL",
       "priority": "HIGH",
       "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "5c80f5f2-e9dd-4d3f-9989-f0b5eb404eeb",
+      "text": "Hello",
+      "sender": "A",
+      "timestamp": 1781939886025,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "6096a39e-b967-42ef-a4b1-1cbcacc141bd",
+      "text": "Hello",
+      "sender": "A",
+      "timestamp": 1781939926035,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "efc84c7e-6c2c-4410-ae9e-4e8c8bde291e",
+      "text": "I need medicines ",
+      "sender": "A",
+      "timestamp": 1781940853557,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "e829e3c0-85bf-4f42-abfe-e8b54e904098",
+      "text": "I need medicines ",
+      "sender": "A",
+      "timestamp": 1781940900458,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "6b7782be-375a-4af0-9fd4-2dd64e4ef5ac",
+      "text": "Testing",
+      "sender": "A",
+      "timestamp": 1781945396205,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "5daf628a-73c7-4d14-a8ea-4bfedf40f850",
+      "text": "Testing without internet ",
+      "sender": "A",
+      "timestamp": 1781945416483,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "f65fb1eb-cc4f-4543-96b4-8d948fef4f46",
+      "text": "Review...",
+      "sender": "A",
+      "timestamp": 1781945444986,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "b8a4064a-87f6-45f0-9cbb-058b9b3a5553",
+      "text": "Aa",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781947072806,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "f6eaebd5-efd3-42c9-8591-cc4c2bda06a3",
+      "text": "Ttt",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781947137188,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "991934b2-a715-4197-be30-01d3c9d67e44",
+      "text": "Hello my name ",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781947142512,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "f595049c-e459-4352-be44-d29f6af27542",
+      "text": "Hello my name is aayush",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781947828153,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "5dca65b6-8f58-4a3d-aa4e-343b2cb1a14c",
+      "text": "Hello my name is se",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781948047147,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "10710a9a-57b7-4f16-9ce9-4e7036fb1b9f",
+      "text": "We we",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781949304178,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "c442ae97-d1e8-4bbc-bd4a-a27f2d43d9f2",
+      "text": "One ",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781949342545,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "64e28529-1d55-495c-b076-ca067dcb9b2b",
+      "text": "I need help ",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781952128534,
+      "status": "ALLOCATED",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ],
+      "category": "MEDICAL",
+      "priority": "HIGH",
+      "resourceNeeded": "AMBULANCE"
+    },
+    {
+      "id": "d76c56b6-87e9-4164-9ddb-1ff9b09d2fef",
+      "text": "I need help ",
+      "sender": "BLE Mesh (A)",
+      "timestamp": 1781952300279,
+      "status": "PENDING",
+      "meshPath": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BLE Gateway"
+      ]
     }
   ],
   "decisions": [
@@ -119,6 +367,246 @@
         "utilityScore": 75,
         "scarcityCost": 160,
         "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "5c80f5f2-e9dd-4d3f-9989-f0b5eb404eeb",
+      "messageHash": "0x06b3dfaec148fb1bb2b066f10ec285e7c9bf402ab32aa78a5d38e34566810cd2",
+      "action": "Downgraded: Dispatched MEDICAL_KIT #3",
+      "resource": "MEDICAL_KIT #3",
+      "priority": "HIGH",
+      "timestamp": 1781939886,
+      "txHash": "0x1499ffa410a369a01f7eb946423a876f5ad37bcf7736f4a13c479a8efa1ffcfa",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 160,
+        "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "6096a39e-b967-42ef-a4b1-1cbcacc141bd",
+      "messageHash": "0x06b3dfaec148fb1bb2b066f10ec285e7c9bf402ab32aa78a5d38e34566810cd2",
+      "action": "Dispatched MOCK_ITEM #99",
+      "resource": "MOCK_ITEM",
+      "priority": "HIGH",
+      "timestamp": 1781939926,
+      "txHash": "0xmockr6zrg393gw",
+      "isVerified": false,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 160,
+        "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "efc84c7e-6c2c-4410-ae9e-4e8c8bde291e",
+      "messageHash": "0x220afd1339039b2529f73d34764fa81437ffc61bd1e31798459315ba4a9b0137",
+      "action": "Downgraded: Dispatched MEDICAL_KIT #5",
+      "resource": "MEDICAL_KIT #5",
+      "priority": "HIGH",
+      "timestamp": 1781940853,
+      "txHash": "0xbd41bab9587212cc67e01414eaa9f49b6ae717f9e6cecafbd2a0ce9847e2bfc6",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 160,
+        "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "e829e3c0-85bf-4f42-abfe-e8b54e904098",
+      "messageHash": "0x220afd1339039b2529f73d34764fa81437ffc61bd1e31798459315ba4a9b0137",
+      "action": "Dispatched AMBULANCE #2",
+      "resource": "AMBULANCE #2",
+      "priority": "HIGH",
+      "timestamp": 1781940900,
+      "txHash": "0xmockzu3gajdvle",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 160,
+        "decision": "APPROVED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "6b7782be-375a-4af0-9fd4-2dd64e4ef5ac",
+      "messageHash": "0x5855073c29c25eb7c52ddac2136cfe1527eaf496347a6a693d8fe78129c187f3",
+      "action": "Queue for AMBULANCE",
+      "resource": "None (Queued)",
+      "priority": "HIGH",
+      "timestamp": 1781945396,
+      "txHash": "0xbbf0e8a2191803ec046a8423ce9e8cfa54b9e3155e40295fac28b4adba6bb625",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 240,
+        "decision": "QUEUED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "5daf628a-73c7-4d14-a8ea-4bfedf40f850",
+      "messageHash": "0xb79392ee1fc601ec494f3aa0ea76a387ba925a4a2fcc9173531a2664437d304e",
+      "action": "Queue for AMBULANCE",
+      "resource": "None (Queued)",
+      "priority": "HIGH",
+      "timestamp": 1781945416,
+      "txHash": "0xa86a2414ea8c18d6928920726297b4046a5b24c44bef1ce544baec6cf3f584ba",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 240,
+        "decision": "QUEUED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "f65fb1eb-cc4f-4543-96b4-8d948fef4f46",
+      "messageHash": "0x5427a911e96ff48e60380ed8dee4fd8c98b13a6f0f04b91f2578a27b1d5ef670",
+      "action": "Queue for AMBULANCE",
+      "resource": "None (Queued)",
+      "priority": "HIGH",
+      "timestamp": 1781945445,
+      "txHash": "0xa4fc317ac828a80f04098c4a81544fa994f85d2c15a0ddf7333feaad88215633",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 240,
+        "decision": "QUEUED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "b8a4064a-87f6-45f0-9cbb-058b9b3a5553",
+      "messageHash": "0x99bf3caaadacf685484d77fff1ad5a7c3eae8d6648ab40cad882fef752fa4f1e",
+      "action": "Downgraded: Dispatched MEDICAL_KIT #1",
+      "resource": "MEDICAL_KIT #1",
+      "priority": "HIGH",
+      "timestamp": 1781947072,
+      "txHash": "0xad66ce9a2d99f915fe2069d55cc4d70ce731cf34b7331a47a7d8835745445503",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 80,
+        "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "f6eaebd5-efd3-42c9-8591-cc4c2bda06a3",
+      "messageHash": "0xcace4ddce832380b786312a0d841ab7daf7f7e46ff90f7d494afc2141befed87",
+      "action": "Downgraded: Dispatched MEDICAL_KIT #2",
+      "resource": "MEDICAL_KIT #2",
+      "priority": "HIGH",
+      "timestamp": 1781947137,
+      "txHash": "0x068d73540cfdd1a9473f9ff23d871620e7c369e916c934b40ef7ed7f93ccba01",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 80,
+        "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "991934b2-a715-4197-be30-01d3c9d67e44",
+      "messageHash": "0x5cf0ca4cb7cbf8cdb6591e0dd7ae496f67947c75cb8688b7a600eb8c45586bfa",
+      "action": "Downgraded: Dispatched MEDICAL_KIT #3",
+      "resource": "MEDICAL_KIT #3",
+      "priority": "HIGH",
+      "timestamp": 1781947142,
+      "txHash": "0x0c6723fea298b09c517fa98eb04623d5994885e19016f348f7133a97753e88f1",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 80,
+        "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "f595049c-e459-4352-be44-d29f6af27542",
+      "messageHash": "0x93d8bec7cd12212e266411243ee0fcc9831500ada4ae798b3da60cf29a7bdd22",
+      "action": "Downgraded: Dispatched MEDICAL_KIT #4",
+      "resource": "MEDICAL_KIT #4",
+      "priority": "HIGH",
+      "timestamp": 1781947828,
+      "txHash": "0x02d878783826ae5b4546fe231ff9d12d87a19df33b0d391536c33704b9deb7cb",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 80,
+        "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "5dca65b6-8f58-4a3d-aa4e-343b2cb1a14c",
+      "messageHash": "0x6decb47fa8fe61d8f34d6645dc7f9e51cc56a99474de68f1e219f177c18f6dba",
+      "action": "Downgraded: Dispatched MEDICAL_KIT #5",
+      "resource": "MEDICAL_KIT #5",
+      "priority": "HIGH",
+      "timestamp": 1781948047,
+      "txHash": "0xcd25f3bcb68b7fdd1b22d88a221106ebf014e6cabd2a4acbac1474a3d3908788",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 80,
+        "decision": "CONSERVED_AND_SUBSTITUTED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "10710a9a-57b7-4f16-9ce9-4e7036fb1b9f",
+      "messageHash": "0xd62d1acc469004d55fc3a541b8a77f75a56dd8251f33b4226b9be99afbf8f97c",
+      "action": "Dispatched AMBULANCE #1",
+      "resource": "AMBULANCE #1",
+      "priority": "HIGH",
+      "timestamp": 1781949304,
+      "txHash": "0x5b00ee9185a95aeaaeca22c13c9f79199961eba41f8e942f47fa1f726a3f9cb7",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 80,
+        "decision": "APPROVED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "c442ae97-d1e8-4bbc-bd4a-a27f2d43d9f2",
+      "messageHash": "0x32451dea8d39c9e197606425fbdbcd23d6a8eccfc4970b4ab3a96e06659c65af",
+      "action": "Dispatched AMBULANCE #2",
+      "resource": "AMBULANCE #2",
+      "priority": "HIGH",
+      "timestamp": 1781949342,
+      "txHash": "0xe70e559f768d5905484b4b6d3e05c82e2cb739eacbe1006c4bbb569256c88d68",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 160,
+        "decision": "APPROVED",
+        "originalResource": "AMBULANCE"
+      }
+    },
+    {
+      "id": "64e28529-1d55-495c-b076-ca067dcb9b2b",
+      "messageHash": "0xdc7d83b0972957918f60e889a7adc462f0466488d4f48813c894d4c7c1cf09f7",
+      "action": "Queue for AMBULANCE",
+      "resource": "None (Queued)",
+      "priority": "HIGH",
+      "timestamp": 1781952128,
+      "txHash": "0x8e6d7cfeea9ef2b77509693bad84fa671ef59eb68a79253126ded551dbf84be0",
+      "isVerified": true,
+      "economics": {
+        "utilityScore": 75,
+        "scarcityCost": 240,
+        "decision": "QUEUED",
         "originalResource": "AMBULANCE"
       }
     }

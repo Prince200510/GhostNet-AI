@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["GhostnetBleModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.ghostnetble.GhostnetBleModule"]
+  }
+}

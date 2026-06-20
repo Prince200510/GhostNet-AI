@@ -1,8 +1,24 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from classifier import classify_emergency
+from contextlib import asynccontextmanager
+import asyncio
+from ble_listener import start_ble_listener
 
-app = FastAPI(title="GhostNet AI Economic Agent", version="2.0.0")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: Start BLE scanning as a background task in the event loop
+    ble_task = asyncio.create_task(start_ble_listener())
+    yield
+    # Shutdown: Clean up background task on server close
+    ble_task.cancel()
+    try:
+        await ble_task
+    except asyncio.CancelledError:
+        pass
+
+app = FastAPI(title="GhostNet AI Economic Agent", version="2.0.0", lifespan=lifespan)
+
 
 # In-memory resource pool matching project spec
 resource_pool = {

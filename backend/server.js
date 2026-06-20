@@ -26,7 +26,12 @@ const {
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const AI_SERVICE_URL = process.env.AI_SERVICE_URL || "http://127.0.0.1:8000";
+
+const isProd = process.env.IS_PRODUCTION === "true";
+const AI_SERVICE_URL = isProd 
+  ? (process.env.PROD_AI_SERVICE_URL || "https://ghostnet-ai-agent.onrender.com")
+  : (process.env.LOCAL_AI_SERVICE_URL || "http://127.0.0.1:8000");
+
 
 app.use(cors());
 app.use(express.json());
@@ -134,13 +139,13 @@ app.post("/api/resources/reset", async (req, res) => {
 
 // POST /api/emergency
 app.post("/api/emergency", async (req, res) => {
-  const { text, sender, meshPath } = req.body;
+  const { id: reqId, text, sender, meshPath } = req.body;
   if (!text) {
     return res.status(400).json({ error: "Text is required" });
   }
 
   try {
-    const id = uuidv4();
+    const id = reqId || uuidv4();
     const timestamp = Date.now();
     
     // Save initial emergency record (unprocessed)

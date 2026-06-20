@@ -3,3 +3,8 @@ backend/node_modules/
 dashboard/node_modules/
 mobile/node_modules/
 blockchain/node_modules/
+backend/.env
+ai/.env
+.env
+*.env
+
