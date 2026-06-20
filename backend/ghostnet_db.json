@@ -289,20 +289,6 @@
       "category": "MEDICAL",
       "priority": "HIGH",
       "resourceNeeded": "AMBULANCE"
-    },
-    {
-      "id": "d76c56b6-87e9-4164-9ddb-1ff9b09d2fef",
-      "text": "I need help ",
-      "sender": "BLE Mesh (A)",
-      "timestamp": 1781952300279,
-      "status": "PENDING",
-      "meshPath": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "BLE Gateway"
-      ]
     }
   ],
   "decisions": [

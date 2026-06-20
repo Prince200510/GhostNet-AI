@@ -9,12 +9,7 @@ import {
   Layers, 
   Terminal, 
   Sun, 
-  Moon, 
-  Database, 
-  Cpu, 
-  TrendingUp, 
-  FileText, 
-  ArrowUpRight 
+  Moon 
 } from 'lucide-react';
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 

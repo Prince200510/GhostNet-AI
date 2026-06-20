@@ -199,8 +199,8 @@ app.post("/api/emergency", async (req, res) => {
       };
     }
 
-    // 3. Generate Keccak256 hash of the emergency message
-    const messageHash = ethers.solidityPackedKeccak256(["string"], [text]);
+    // 3. Generate Keccak256 hash of the emergency message (includes unique id to avoid duplicates)
+    const messageHash = ethers.solidityPackedKeccak256(["string", "string"], [id, text]);
 
     // 4. Store Proof on Blockchain (Monad / Hardhat)
     const onChainRecord = await storeDecisionOnChain(
