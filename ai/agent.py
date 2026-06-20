@@ -1,21 +1,31 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from classifier import classify_emergency
+import os
 from contextlib import asynccontextmanager
 import asyncio
-from ble_listener import start_ble_listener
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: Start BLE scanning as a background task in the event loop
-    ble_task = asyncio.create_task(start_ble_listener())
+    ble_task = None
+    if os.environ.get("DISABLE_BLE", "").lower() != "true":
+        try:
+            from ble_listener import start_ble_listener
+            # Startup: Start BLE scanning as a background task in the event loop
+            ble_task = asyncio.create_task(start_ble_listener())
+        except Exception as e:
+            print(f"[BLE] Skipping BLE listener (not available): {e}")
+    else:
+        print("[BLE] BLE listener disabled via DISABLE_BLE env var")
     yield
     # Shutdown: Clean up background task on server close
-    ble_task.cancel()
-    try:
-        await ble_task
-    except asyncio.CancelledError:
-        pass
+    if ble_task:
+        ble_task.cancel()
+        try:
+            await ble_task
+        except asyncio.CancelledError:
+            pass
+
 
 app = FastAPI(title="GhostNet AI Economic Agent", version="2.0.0", lifespan=lifespan)
 
